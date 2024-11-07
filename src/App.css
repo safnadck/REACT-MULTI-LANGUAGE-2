@@ -1,0 +1,49 @@
+/* styles.css */
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 10vmin;
+  pointer-events: none;
+  width: 10vmin;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.app-content {
+  padding: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: aqua;
+}
+
+.app-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+.language-switcher button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+@media (max-width: 600px) {
+  .app-header, .app-footer {
+    padding: 10px;
+  }
+
+  .language-switcher button {
+    font-size: 0.8rem;
+    padding: 3px 6px;
+  }
+}
